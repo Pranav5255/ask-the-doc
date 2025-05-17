@@ -21,13 +21,14 @@
 
 ## 📂 Project Structure
 
+```plaintext
 ask-the-docs/
-│ ├── rag_chain.py #LLM Logic
-│ ├── utils.py 
-│ ├── main.py # Streamlit app
-│ └── requirements.txt # Python dependencies
+├── rag_chain.py         # LLM Logic
+├── utils.py             # Utility functions
+├── main.py              # Streamlit app
+├── requirements.txt     # Python dependencies
 ├── README.md
-
+```
 
 
 ## ⚙️ Setup Instructions
