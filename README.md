@@ -32,10 +32,10 @@ ask-the-docs/
 
 ## ⚙️ Setup Instructions
 
-### Backend
+### Application Initialisation and Deployment
 
 ```bash
-cd backend
+
 python -m venv venv
 source venv/bin/activate  # For Linux/macOS
 # .\venv\Scripts\activate  # For Windows
