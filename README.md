@@ -4,11 +4,11 @@
 
 ## 🚀 Features
 
-- 📄 Upload support for PDF and TXT files
-- 🔍 Ask questions directly from the uploaded document
-- 🧠 Uses RAG (Retrieval-Augmented Generation) for precise answers
-- 🖥️ Streamlit-based frontend for interactive UI
-- ⚡ Fast, local document processing
+-  Upload support for PDF and TXT files
+-  Ask questions directly from the uploaded document
+-  Uses RAG (Retrieval-Augmented Generation) for precise answers
+-  Streamlit-based frontend for interactive UI
+-  Fast, local document processing
 
 ## 🛠️ Tech Stack
 
