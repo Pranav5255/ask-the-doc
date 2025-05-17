@@ -16,7 +16,7 @@
 - **Backend:** Python (FastAPI)
 - **Document Parsing:** PyMuPDF for PDFs, native handling for TXT
 - **Embedding & Retrieval:** Sentence Transformers (`all-MiniLM-L6-v2`)
-- **LLM:** OpenAI GPT (or replaceable with any LLM API)
+- **LLM:** Gemini-2.0-Flash
 - **Vector Store:** FAISS
 
 ## 📂 Project Structure
@@ -27,6 +27,7 @@ ask-the-docs/
 ├── utils.py             # Utility functions
 ├── main.py              # Streamlit app
 ├── requirements.txt     # Python dependencies
+├── Dockerfile
 ├── README.md
 ```
 
@@ -43,3 +44,5 @@ source venv/bin/activate  # For Linux/macOS
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+Disclaimer: I have used Gemini-2.0-Flash model to analyse the documents. But it has a limit on the no. of pages it can handle at a time. 
