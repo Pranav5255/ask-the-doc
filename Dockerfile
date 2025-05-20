@@ -14,8 +14,9 @@ RUN apt-get update && apt-get install -y \
 # Copy requirements first for caching
 COPY requirements.txt .
 
-# Install Python dependencies
+# Upgrade pip and uninstall/reinstall problematic libraries
 RUN pip install --no-cache-dir --upgrade pip && \
+    pip uninstall -y transformers sentence-transformers langchain-huggingface && \
     pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
