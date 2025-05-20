@@ -14,7 +14,7 @@ env:
   PYTHON_VERSION: '3.11'
   ECS_SERVICE: ask-the-doc-service  # Your ECS service name
   ECS_CLUSTER: ask-the-doc-cluster  # Your ECS cluster name
-  ECS_TASK_DEFINITION: ask-the-doc-task:2  # Path to your task definition file
+  ECS_TASK_DEFINITION: ask-the-doc-task:3  # Path to your task definition file
   CONTAINER_NAME: ask-the-doc-container  # Container name in task definition
 
 jobs:
