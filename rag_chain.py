@@ -47,7 +47,7 @@ def setup_qa_chain(vector_store):
 
     try:
         llm = ChatGoogleGenerativeAI(
-            model="models/gemini-2.0-flash",
+            model="models/gemini-1.5-pro-latest",
             google_api_key=GEMINI_API_KEY,
             temperature=0.7
         )
@@ -120,3 +120,4 @@ if __name__ == '__main__':
     answer_2 = get_answer(sample_text, sample_question_2)
     print(f"\nQuestion: {sample_question_2}")
     print(f"Answer: {answer_2}")
+
