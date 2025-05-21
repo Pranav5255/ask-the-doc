@@ -47,7 +47,7 @@ def setup_qa_chain(vector_store):
 
     try:
         llm = ChatGoogleGenerativeAI(
-            model="models/gemini-1.5-pro-latest",
+            model="models/gemini-2.0-flash",
             google_api_key=GEMINI_API_KEY,
             temperature=0.7
         )
