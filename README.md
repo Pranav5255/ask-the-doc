@@ -23,12 +23,12 @@
 
 ```plaintext
 ask-the-docs/
+├── .github/workflows    # Automate Docker build, push and deploy
 ├── rag_chain.py         # LLM Logic
 ├── utils.py             # Utility functions
 ├── main.py              # Streamlit app
 ├── requirements.txt     # Python dependencies
 ├── Dockerfile
-├── README.md
 ```
 
 
