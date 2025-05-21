@@ -48,3 +48,8 @@ streamlit run app.py
 Disclaimer: I have used Gemini-2.0-Flash model to analyse the documents. But it has a limit on the no. of pages it can handle at a time. 
 
 I have created the Dockerfile such that it can be deployed on an AWS EC2 instance. So keep in mind that while creating the Dockerfile, it should be Linux compatible as Windows files can cause deployment failures.
+
+I have also successfully automated the deployment tasks right from uploading the Docker Image to the AWS Elastic Container Registry to Deployment from Amazon Elastic Container Service Fargate!!
+
+Here's how I did that:
+
